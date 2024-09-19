@@ -1,0 +1,11 @@
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7.5vw;
+}
+@media (width<600px) {
+    .mobile_email{
+        display: none;
+    }
+}

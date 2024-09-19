@@ -1,0 +1,16 @@
+
+@media (width<421px)  {
+    .imgtype{
+       display: none;
+    }
+    .grid{
+        border: 'solid 3px red';
+    }
+}
+ @media (width>421px) {
+    
+ 
+ .grid{
+    display: none;
+ }
+}

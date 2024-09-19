@@ -1,0 +1,8 @@
+li{
+    font-size: 10px;
+}
+@media (width>420px) {
+    li{
+        font-size: 2vw;
+    }
+}

@@ -1,0 +1,21 @@
+.main{
+    margin: 2px;
+}
+.main button{
+    cursor: pointer;
+    outline: none;
+}
+.menu{
+    /* ye batata hia ki pahle se is compont ko hide kar ke rahko  */
+    display: none;
+}
+a{
+    display: block;
+    margin: 1px;
+    padding: 2px;
+}
+/* ye bata hai ki jase hi main class par hover ho display kar do  */
+ /* dropdown content hamesa main class k inside hona chahiye  */
+.main:hover .menu{
+    display: block;
+}
